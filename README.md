@@ -21,7 +21,7 @@ dizer que sim, não se deve manipular as entradas, mas como o pior caso ja seria
 que ele não aconteça aqui, no teste de valores aleatórios.
 
 O objetivo do trabalho é realizar a comparação prática entre os algoritmos e após a análise criar um Algoritmo de Ordenação Híbrido
-que júlgasse melhor para atender às entradas e justificar a escolha.
+que julgasse melhor para atender às entradas e justificar a escolha.
 
-Optei por utilizar as mesmas entradas em todos eles para obter um resultado mais consistente entre eles. No caso das entradas do tipo
-randômico, foram gerados e testados com vários arquivos, no mínimo 3 arquivos diferentes para cada tamanho.
+Optei por utilizar as mesmas entradas em todos os algoritmos para obter um resultado mais consistente entre eles. No caso das entradas
+do tipo randômico, foram gerados e testados com vários arquivos, no mínimo 3 arquivos diferentes para cada tamanho.
