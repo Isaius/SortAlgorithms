@@ -14,7 +14,11 @@ números gerados por um outro programa feito apenas de suporte.
 
 Há três tipos de entradas, classificadas pelo tipo de ordenação em que estão: Crescente, Decrescente e Randômicas. Todas tem um
 exemplo de cada tamanho citado anteriormente. Vale notar que foi estipulado um intervalo do dobro do tamanho da entrada para a geração
-randômica dos números a serem inseridos nos arquivos.
+randômica dos números a serem inseridos nos arquivos. A escolha foi feita para possibilitar uma maior variedade de números e reduzir
+a quantidade de repetidos e tentar impossibilitar o acontecimento de um pior caso, que seria a entrada já estar ordenada, o que é bem
+improvável, mas na computação não deve se contar com incertezas. Porém a possibilidade ainda existe, a estatística prova. Também vale
+dizer que sim, não se deve manipular as entradas, mas como o pior caso ja seria testado com o tipo de entrada específico, é mais desejável
+que ele não aconteça aqui, no teste de valores aleatórios.
 
 O objetivo do trabalho é realizar a comparação prática entre os algoritmos e após a análise criar um Algoritmo de Ordenação Híbrido
 que júlgasse melhor para atender às entradas e justificar a escolha.
