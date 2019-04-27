@@ -69,7 +69,7 @@ def merge(array, first, mid, last):
 		# verificando se a variavel de controle do array esquerdo
 		# é maior que o tamanho so sub array esquerdo. Caso seja,
 		# significa que todos os elementos do sub array ja foram
-		# selecionado e escrito no array orignial.
+		# selecionado e escritos no array orignial.
 		if lft>=half1:
 			# portanto, inserir apenas os elementos restantes do array direito
 			# não é necessario verificar tamanhos, pois o algoritmo garante
@@ -80,8 +80,8 @@ def merge(array, first, mid, last):
 			# incrementando a variavel de controle da direita
 			rgt = rgt+1
 		# verificando se a variavel de controle do array direito
-		# a explicação é a mesma acima
 		elif rgt>=half2:
+			# a explicação é a mesma acima
 			# inserindo apenas os elementos restantes do array esquerdo
 			array[k] = L[lft]
 			# incrementando a variavel de controle da esquerda
@@ -94,7 +94,7 @@ def merge(array, first, mid, last):
 				array[k] = L[lft]
 				# e incrementa-se a variavel de controle da esquerda
 				lft = lft+1
-			# senão, o da direita é maior
+			# senão, o da direita é menor
 			else:
 				# o elemento da direita é escrito no array original
 				array[k] = R[rgt]
